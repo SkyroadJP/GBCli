@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/tomaz/GBCli.git', :tag => '1.2.2' }
   s.platform     = :osx, '10.9'
   s.source_files = 'GBCli/src'
-  s.swift_version = 5.0
+  s.swift_version = '5.0'
   s.requires_arc = true
 end
